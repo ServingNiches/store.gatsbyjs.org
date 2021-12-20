@@ -22,7 +22,7 @@
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.11",
     "apollo-boost": "^0.4.4",
-    "auth0-js": "^9.10.2",
+    "auth0-js": "^9.18.0",
     "axios": "^0.18.0",
     "gatsby": "^2.22.12",
     "gatsby-image": "^2.0.41",
