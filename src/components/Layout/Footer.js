@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import styled from '@emotion/styled';
 
 import { breakpoints, colors, spacing } from '../../utils/styles';
+import { Helmet } from 'react-helmet/es/Helmet';
+import { withPrefix } from 'gatsby';
 
 const FooterRoot = styled('footer')`
   align-items: center;
@@ -78,11 +80,13 @@ class Footer extends Component {
           Built with 💜 by{' '}
           <a href="https://servingniches.org/">Serving Niches LLC.</a>
         </Row>
-        {/*<Spacer>•</Spacer>*/}
-        {/*<Row>*/}
-        {/*See the source code on{' '}*/}
-        {/*<a href="https://github.com/gatsbyjs/store.gatsbyjs.org">GitHub</a>*/}
-        {/*</Row>*/}
+        <Helmet>
+          <script
+            async="async"
+            src="//cdn.wishpond.net/connect.js?merchantId=1587357&amp;writeKey="
+            type="text/javascript"
+          />
+        </Helmet>
       </FooterRoot>
     );
   }
