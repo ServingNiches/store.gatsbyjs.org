@@ -4,8 +4,6 @@
     <list default="true" id="3200d525-99cc-43df-8a6e-cc136afa3f5e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +237,7 @@
       <workItem from="1579763763176" duration="858000" />
       <workItem from="1638488344283" duration="2127000" />
       <workItem from="1638662317158" duration="824000" />
-      <workItem from="1650634995045" duration="4545000" />
+      <workItem from="1650634995045" duration="5159000" />
     </task>
     <servers />
   </component>
