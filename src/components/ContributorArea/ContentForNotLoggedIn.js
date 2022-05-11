@@ -42,7 +42,7 @@ const ContentForGuest = () => (
     {/*</Button>*/}
     <Button
       inverse
-      href="//cutepetsuppliesstore.com/product/breathable-nylon-cat-muzzle-anti-bite-kitten-mouse-muzzles-for-bitting-bath-beauty-travel-tool-with-hole-cats-grooming-supplies"
+      href="//cutepetsuppliesstore.com/product/multicolor-5-15m-dog-harness-abs-automatic"
     >
       Featured Product of the Week
     </Button>

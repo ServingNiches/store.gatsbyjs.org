@@ -2,6 +2,8 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { breakpoints, colors, fonts, spacing } from '../../utils/styles';
+import Carousel from '../Carousel';
+import image1 from '../Carousel/img.png';
 
 const ProductListingHeaderRoot = styled(`header`)`
   display: flex;
@@ -39,8 +41,13 @@ const Intro = styled(`p`)`
   }
 `;
 
+const imagesCarousel = {
+  carouselImage1: image1
+};
+
 const ProductListingHeader = () => (
   <ProductListingHeaderRoot>
+    <Carousel data={imagesCarousel} />
     <Title>Pamper Your Furry Friends!</Title>
     <Intro>
       We pride ourselves in curating an extensive range of unique premium
