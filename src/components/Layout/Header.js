@@ -78,6 +78,7 @@ class Header extends Component {
 
     return (
       <HeaderRoot className={className}>
+       <meta name="google-site-verification" content="LM61cW7nn7XTObOhrqGe2a26nd6aZtXeJveBsZ_3iR4" />
         <HomeLink to="/" aria-label="Home page">
           <Logo />
         </HomeLink>
